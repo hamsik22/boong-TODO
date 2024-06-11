@@ -59,6 +59,7 @@ struct AddTaskView: View {
                 })
             }.sheet(isPresented: $timeSelectorisPresented, content: {
                 // 시간 선택 화면 모달뷰
+                // TODO: 키보드에 화면 밀림현상
                 TimeSelector(isPresented: $timeSelectorisPresented)
                     .presentationDetents([.height(368)])
                     .presentationDragIndicator(.visible)
