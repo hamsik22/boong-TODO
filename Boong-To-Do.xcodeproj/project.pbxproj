@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9131C8FF2C15FD5F006DE1F7 /* Boong_To_DoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C8FE2C15FD5F006DE1F7 /* Boong_To_DoApp.swift */; };
-		9131C9012C15FD5F006DE1F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C9002C15FD5F006DE1F7 /* ContentView.swift */; };
+		9131C9012C15FD5F006DE1F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C9002C15FD5F006DE1F7 /* HomeView.swift */; };
 		9131C9032C15FD61006DE1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9131C9022C15FD61006DE1F7 /* Assets.xcassets */; };
 		9131C9062C15FD61006DE1F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9131C9052C15FD61006DE1F7 /* Preview Assets.xcassets */; };
 		9131C9102C15FD61006DE1F7 /* Boong_To_DoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C90F2C15FD61006DE1F7 /* Boong_To_DoTests.swift */; };
@@ -17,7 +17,7 @@
 		9131C9292C16007A006DE1F7 /* DateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C9282C16007A006DE1F7 /* DateSelector.swift */; };
 		913874562C1888B000EC9C98 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913874552C1888B000EC9C98 /* EmptyListView.swift */; };
 		913874582C18909F00EC9C98 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913874572C18909F00EC9C98 /* AddTaskView.swift */; };
-		9138745A2C18A03700EC9C98 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913874592C18A03700EC9C98 /* TimeSelector.swift */; };
+		9138745A2C18A03700EC9C98 /* DurationSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913874592C18A03700EC9C98 /* DurationSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		9131C8FB2C15FD5F006DE1F7 /* Boong-To-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boong-To-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9131C8FE2C15FD5F006DE1F7 /* Boong_To_DoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boong_To_DoApp.swift; sourceTree = "<group>"; };
-		9131C9002C15FD5F006DE1F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9131C9002C15FD5F006DE1F7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9131C9022C15FD61006DE1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9131C9052C15FD61006DE1F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9131C90B2C15FD61006DE1F7 /* Boong-To-DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boong-To-DoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +51,7 @@
 		9131C9282C16007A006DE1F7 /* DateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelector.swift; sourceTree = "<group>"; };
 		913874552C1888B000EC9C98 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 		913874572C18909F00EC9C98 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
-		913874592C18A03700EC9C98 /* TimeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelector.swift; sourceTree = "<group>"; };
+		913874592C18A03700EC9C98 /* DurationSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				9131C8FE2C15FD5F006DE1F7 /* Boong_To_DoApp.swift */,
-				9131C9002C15FD5F006DE1F7 /* ContentView.swift */,
+				9131C9002C15FD5F006DE1F7 /* HomeView.swift */,
 				9131C9282C16007A006DE1F7 /* DateSelector.swift */,
 				913874552C1888B000EC9C98 /* EmptyListView.swift */,
 				913874572C18909F00EC9C98 /* AddTaskView.swift */,
-				913874592C18A03700EC9C98 /* TimeSelector.swift */,
+				913874592C18A03700EC9C98 /* DurationSelector.swift */,
 				9131C9022C15FD61006DE1F7 /* Assets.xcassets */,
 				9131C9042C15FD61006DE1F7 /* Preview Content */,
 			);
@@ -270,10 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				913874562C1888B000EC9C98 /* EmptyListView.swift in Sources */,
-				9138745A2C18A03700EC9C98 /* TimeSelector.swift in Sources */,
+				9138745A2C18A03700EC9C98 /* DurationSelector.swift in Sources */,
 				913874582C18909F00EC9C98 /* AddTaskView.swift in Sources */,
 				9131C9292C16007A006DE1F7 /* DateSelector.swift in Sources */,
-				9131C9012C15FD5F006DE1F7 /* ContentView.swift in Sources */,
+				9131C9012C15FD5F006DE1F7 /* HomeView.swift in Sources */,
 				9131C8FF2C15FD5F006DE1F7 /* Boong_To_DoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
